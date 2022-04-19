@@ -6,7 +6,7 @@ import sendEmail from "../utils/email.js";
 import sendToken from '../utils/webToken.js';
 
 
-var balance = 1000;
+var balance = 1500;
 
 export const getAllUsers = asyncWrapper( async(req, res) =>{
     const allUsers = await User.find({})
